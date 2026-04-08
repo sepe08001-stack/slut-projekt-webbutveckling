@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial Black', sans-serif;
+    background-color: #2b2622;
+    color: white;
+    margin: 0;
+}
+
+.global-nav {
+    background-color: #a22b2b;
+    padding: 1rem;
+    border-bottom: 5px solid black;
+}
+
+.global-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.global-nav li { margin: 0 15px; }
+
+.global-nav a {
+    color: #f0e6d2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
