@@ -26,3 +26,35 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+.grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero { 
+    grid-column: 1 / span 2; 
+    text-align: center; 
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #3c352e;
+}
+
+.mission {
+    background-color: #3c352e;
+    padding: 20px;
+    border-left: 5px solid #ef6e14;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    margin-top: 40px;
+}
