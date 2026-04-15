@@ -58,3 +58,23 @@ footer {
     background-color: black;
     margin-top: 40px;
 }
+.content-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tf2-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #3c352e;
+}
+
+.tf2-table th, .tf2-table td {
+    border: 2px solid #a22b2b;
+    padding: 15px;
+    text-align: left;
+}
+
+.tf2-table th { background-color: #a22b2b; color: white; }
