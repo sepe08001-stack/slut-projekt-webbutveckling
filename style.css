@@ -78,3 +78,21 @@ footer {
 }
 
 .tf2-table th { background-color: #a22b2b; color: white; }
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 12px;
+    background-color: #f0e6d2;
+    border: 3px solid #3c352e;
+}
+
+.tf2-btn {
+    background-color: #ef6e14;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}

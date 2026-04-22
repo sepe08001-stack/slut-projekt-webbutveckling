@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment | Mann Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="global-nav">
+            <ul>
+                <li><a href="index.html">Headquarters</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-container">
+        <h1>ANSÖK TILL LAGET</h1>
+        <form id="recruitForm">
+            <label for="name">Alias:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="team">Välj Färg:</label>
+            <select id="team" name="team">
+                <option value="red">RED Team</option>
+                <option value="blu">BLU Team</option>
+            </select>
+
+            <label for="message">Varför Mann Co?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" class="tf2-btn">Skicka Ansökan</button>
+        </form>
+        <p id="response"></p>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
